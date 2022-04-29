@@ -52,7 +52,7 @@ body {
 
 .button-group button {
   background-color: white;
-  color: black;
+  color: #008566;
   padding: 20px 15px;
   cursor: pointer;
   float: left;
@@ -60,7 +60,7 @@ body {
 }
 
 #b-button {
-  background-color: black;
+  background-color: #008566;
   color: white;
 }
 

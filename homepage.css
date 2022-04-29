@@ -51,7 +51,7 @@ body {
 }
 
 .button-group button {
-  background-color: black;
+  background-color: #008566;
   color: white;
   padding: 20px 15px;
   cursor: pointer;
@@ -61,7 +61,7 @@ body {
 
 #b-button {
   background-color: white;
-  color: black;
+  color: #008566;
 }
 
 .button-group button:not(:last-child) {
