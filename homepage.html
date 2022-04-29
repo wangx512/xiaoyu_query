@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+		<title>queryweb</title>
+    <link href="homepage.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/the-new-css-reset@1.4.7/css/reset.min.css"  rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+		<link href="favicon.png" rel="icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+	</head>
+	<body>
+
+  <a href="index.html">
+    <img class="arrow" src="back.svg" alt="back" height="15%" width="15%">
+  </a>
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="1.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="2.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="3.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="4.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="5.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="6.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="7.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="8.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="9.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="10.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="11.jpg" />
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        loop: true,
+        speed: 800,
+        autoplay: {
+            delay: 1500,
+        },
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: false,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 500,
+            modifier: 1,
+            slideShadows: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+
+
+  <div class="button-group" style="width:100%">
+    <button style="width:50%">Notes</button>
+
+    <a href="interview.html">
+      <button id="b-button" style="width:50%">Interview</button>
+    </a>
+  </div>
+
+
+	</body>
+</html>
